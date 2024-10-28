@@ -17,15 +17,14 @@ export default function LoginForm() {
                         <label for="floatingPassword">Password</label>
                     </div>
                 </div>
+                {/*}
                 <div class="mb-3 form-check">
                     <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-                    {/*}
                     <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                    {*/}
                 </div>
+                 {*/}
                 <div class="d-grid">
                     <button type="submit" class="btn btn-info m-b-xs">Sign In</button>
-                    <button class="btn btn-primary">Facebook</button>
                 </div>
             </form>
         </>
