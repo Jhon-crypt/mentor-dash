@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "./pages/login";
 import Signup from "./pages/signup";
+import Analytics from "./pages/analytics";
 
 function AppRouter() {
 
@@ -15,6 +16,10 @@ function AppRouter() {
           <Route
             path="/signup"
             element={<Signup />}
+          ></Route>
+          <Route
+            path="/dashboard"
+            element={<Analytics />}
           ></Route>
         </Routes>
       </Router>

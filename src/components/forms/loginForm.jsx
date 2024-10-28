@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unknown-property */
+import { Link } from "react-router-dom"
 export default function LoginForm() {
 
     return (
@@ -24,7 +25,10 @@ export default function LoginForm() {
                 </div>
                  {*/}
                 <div class="d-grid">
+                    {/*}
                     <button type="submit" class="btn btn-info m-b-xs">Sign In</button>
+                    {*/}
+                    <Link to="/dashboard" class="btn btn-info m-b-xs">Sign In</Link>
                 </div>
             </form>
         </>
