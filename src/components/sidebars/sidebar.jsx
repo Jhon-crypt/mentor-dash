@@ -15,7 +15,7 @@ export default function Sidebar() {
                 <a class="logo" href="index.html"><SiCodementor size={30} /></a>
                 <ul class="list-unstyled accordion-menu">
                     <li class="active-page">
-                        <a href="#" class="active"><SiGoogleanalytics /></a>
+                        <a href="#" class="active"><SiGoogleanalytics /> Analytics</a>
                         <ul class="">
                             <li>
                                 <a>Analytics</a>
@@ -23,7 +23,7 @@ export default function Sidebar() {
                         </ul>
                     </li>
                     <li class="active-page">
-                        <a href="#" class="active">< RxActivityLog /></a>
+                        <a href="#" class="active">< RxActivityLog /> Sessions</a>
                         <ul class="">
                             <li>
                                 <a>Sessions</a>
@@ -31,7 +31,7 @@ export default function Sidebar() {
                         </ul>
                     </li>
                     <li class="active-page">
-                        <a href="#" class="active"><MdOutlineWork /></a>
+                        <a href="#" class="active"><MdOutlineWork /> Freelance</a>
                         <ul class="">
                             <li>
                                 <a>Freelance jobs</a>
@@ -39,7 +39,7 @@ export default function Sidebar() {
                         </ul>
                     </li>
                     <li class="active-page">
-                        <a href="#" class="active"><MdPayments /></a>
+                        <a href="#" class="active"><MdPayments /> Payouts</a>
                         <ul class="">
                             <li>
                                 <a>Payouts</a>
@@ -47,7 +47,7 @@ export default function Sidebar() {
                         </ul>
                     </li>
                     <li class="active-page">
-                        <a href="#" class="active"><HiCurrencyDollar /></a>
+                        <a href="#" class="active"><HiCurrencyDollar /> Direct payments</a>
                         <ul class="">
                             <li>
                                 <a>Direct payments</a>
