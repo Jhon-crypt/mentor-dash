@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unknown-property */
+import { RxActivityLog } from "react-icons/rx";
 export default function RecentSessionCard() {
 
     return (
@@ -8,18 +9,18 @@ export default function RecentSessionCard() {
             <div class="col-lg-4">
                 <div class="card card-bg">
                     <div class="card-body">
-                        <h5 class="card-title">Transactions</h5>
+                        <h5 class="card-title">Recent Sessions</h5>
                         <div class="transactions-list">
                             <div class="tr-item">
                                 <div class="tr-company-name">
                                     <div
                                         class="tr-icon tr-card-icon tr-card-bg-primary text-white"
                                     >
-                                        <i data-feather="thumbs-up"></i>
+                                        <RxActivityLog />
                                     </div>
                                     <div class="tr-text">
-                                        <h4 class="text-white">Facebook</h4>
-                                        <p>02 March</p>
+                                        <h4 class="text-white">Luke Skywalker</h4>
+                                        <p>310 seconds</p>
                                     </div>
                                 </div>
                                 <div class="tr-rate">
@@ -31,17 +32,17 @@ export default function RecentSessionCard() {
                             <div class="tr-item">
                                 <div class="tr-company-name">
                                     <div
-                                        class="tr-icon tr-card-icon tr-card-bg-success text-white"
+                                        class="tr-icon tr-card-icon tr-card-bg-primary text-white"
                                     >
-                                        <i data-feather="credit-card"></i>
+                                        <RxActivityLog />
                                     </div>
                                     <div class="tr-text">
-                                        <h4 class="text-white">Visa</h4>
-                                        <p>02 March</p>
+                                        <h4 class="text-white">Luke Skywalker</h4>
+                                        <p>310 seconds</p>
                                     </div>
                                 </div>
                                 <div class="tr-rate">
-                                    <p><span class="text-success">+$300</span></p>
+                                    <p><span class="text-success">+$24</span></p>
                                 </div>
                             </div>
                         </div>
@@ -49,17 +50,17 @@ export default function RecentSessionCard() {
                             <div class="tr-item">
                                 <div class="tr-company-name">
                                     <div
-                                        class="tr-icon tr-card-icon tr-card-bg-danger text-white"
+                                        class="tr-icon tr-card-icon tr-card-bg-primary text-white"
                                     >
-                                        <i data-feather="tv"></i>
+                                        <RxActivityLog />
                                     </div>
                                     <div class="tr-text">
-                                        <h4 class="text-white">Netflix</h4>
-                                        <p>02 March</p>
+                                        <h4 class="text-white">Luke Skywalker</h4>
+                                        <p>310 seconds</p>
                                     </div>
                                 </div>
                                 <div class="tr-rate">
-                                    <p><span class="text-danger">-$17</span></p>
+                                    <p><span class="text-success">+$24</span></p>
                                 </div>
                             </div>
                         </div>
@@ -67,17 +68,17 @@ export default function RecentSessionCard() {
                             <div class="tr-item">
                                 <div class="tr-company-name">
                                     <div
-                                        class="tr-icon tr-card-icon tr-card-bg-warning text-white"
+                                        class="tr-icon tr-card-icon tr-card-bg-primary text-white"
                                     >
-                                        <i data-feather="shopping-cart"></i>
+                                        <RxActivityLog />
                                     </div>
                                     <div class="tr-text">
-                                        <h4 class="text-white">Themeforest</h4>
-                                        <p>02 March</p>
+                                        <h4 class="text-white">Luke Skywalker</h4>
+                                        <p>310 seconds</p>
                                     </div>
                                 </div>
                                 <div class="tr-rate">
-                                    <p><span class="text-danger">-$220</span></p>
+                                    <p><span class="text-success">+$24</span></p>
                                 </div>
                             </div>
                         </div>
@@ -85,17 +86,17 @@ export default function RecentSessionCard() {
                             <div class="tr-item">
                                 <div class="tr-company-name">
                                     <div
-                                        class="tr-icon tr-card-icon tr-card-bg-info text-white"
+                                        class="tr-icon tr-card-icon tr-card-bg-primary text-white"
                                     >
-                                        <i data-feather="dollar-sign"></i>
+                                        <RxActivityLog />
                                     </div>
                                     <div class="tr-text">
-                                        <h4 class="text-white">PayPal</h4>
-                                        <p>02 March</p>
+                                        <h4 class="text-white">Luke Skywalker</h4>
+                                        <p>310 seconds</p>
                                     </div>
                                 </div>
                                 <div class="tr-rate">
-                                    <p><span class="text-success">+20%</span></p>
+                                    <p><span class="text-success">+$24</span></p>
                                 </div>
                             </div>
                         </div>

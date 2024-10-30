@@ -4,12 +4,14 @@ import SearchContainer from "../components/containers/searchContainer";
 import BarChartAnalyticsCard from "../components/cards/barchartAnalyticsCard";
 import AnalyticsStatsCard from "../components/cards/analyticsStatsCard";
 import RecentSessionCard from "../components/cards/recentSessionCard";
+import RecentScheduledSession from "../components/cards/recenScheduledSessionCard";
+import RecentFreelanceJobsCard from "../components/cards/recentFreelanceJobsCard";
 export default function Analytics() {
 
     return (
 
         <>
-
+ 
             <div class="page-sidebar-collapsed">
                 <div class="page-container">
                     <Sidebar />
@@ -188,132 +190,11 @@ export default function Analytics() {
                             </div>
                             <div class="row">
                                 <RecentSessionCard />
-                                <div class="col-lg-4">
-                                    <div class="card widget widget-info card-bg">
-                                        <div class="card-body">
-                                            <div class="widget-info-container">
-                                                <div
-                                                    class="widget-info-image"
-                                                    style={{ background: "url('http://polygons.space/neo/theme/assets/images/premium.svg')" }}></div>
-                                                <h5 class="widget-info-title text-white">
-                                                    Advanced Security
-                                                </h5>
-                                                <p class="widget-info-text">
-                                                    Lorem ipsum dolor sit amet. Nunc cursus tempor sapien, et
-                                                    mattis libero dapibus ut. Ut a ante sit amet arcu
-                                                    imperdiet ipsum ante
-                                                </p>
-                                                <a href="#" class="btn btn-primary widget-info-action"
-                                                >Try Premium for free</a
-                                                >
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="card stat-widget card-bg">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Top Authors</h5>
-                                            <div class="transactions-list">
-                                                <div class="tr-item">
-                                                    <div class="tr-company-name">
-                                                        <div class="tr-img tr-card-img">
-                                                            <img
-                                                                src="http://polygons.space/neo/theme/assets/images/avatars/avatar1.jpeg"
-                                                                alt="..."
-                                                            />
-                                                        </div>
-                                                        <div class="tr-text">
-                                                            <h4 class="text-white">John Doe</h4>
-                                                            <p>23 items sold</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="tr-rate">
-                                                        <p><span>$300</span></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="transactions-list">
-                                                <div class="tr-item">
-                                                    <div class="tr-company-name">
-                                                        <div class="tr-img tr-card-img">
-                                                            <img
-                                                                src="http://polygons.space/neo/theme/assets/images/avatars/avatar2.jpeg"
-                                                                alt="..."
-                                                            />
-                                                        </div>
-                                                        <div class="tr-text">
-                                                            <h4 class="text-white">Ann Doe</h4>
-                                                            <p>19 items sold</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="tr-rate">
-                                                        <p><span>$270</span></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="transactions-list">
-                                                <div class="tr-item">
-                                                    <div class="tr-company-name">
-                                                        <div class="tr-img tr-card-img">
-                                                            <img
-                                                                src="http://polygons.space/neo/theme/assets/images/avatars/avatar3.jpeg"
-                                                                alt="..."
-                                                            />
-                                                        </div>
-                                                        <div class="tr-text">
-                                                            <h4 class="text-white">Lisa Doe</h4>
-                                                            <p>14 items sold</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="tr-rate">
-                                                        <p><span>$404</span></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="transactions-list">
-                                                <div class="tr-item">
-                                                    <div class="tr-company-name">
-                                                        <div class="tr-img tr-card-img">
-                                                            <img
-                                                                src="http://polygons.space/neo/theme/assets/images/avatars/avatar4.jpeg"
-                                                                alt="..."
-                                                            />
-                                                        </div>
-                                                        <div class="tr-text">
-                                                            <h4 class="text-white">John Doe</h4>
-                                                            <p>10 items sold</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="tr-rate">
-                                                        <p><span>$500</span></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="transactions-list">
-                                                <div class="tr-item">
-                                                    <div class="tr-company-name">
-                                                        <div class="tr-img tr-card-img">
-                                                            <img
-                                                                src="http://polygons.space/neo/theme/assets/images/avatars/avatar5.jpeg"
-                                                                alt="..."
-                                                            />
-                                                        </div>
-                                                        <div class="tr-text">
-                                                            <h4 class="text-white">Ann Doe</h4>
-                                                            <p>8 items sold</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="tr-rate">
-                                                        <p><span>$299</span></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                <RecentScheduledSession />
+                                <RecentFreelanceJobsCard />
                             </div>
-                            <div class="row">
+
+                            {/* <div class="row">
                                 <div class="col-lg-4">
                                     <div class="card card-bg">
                                         <div class="card-body">
@@ -338,7 +219,7 @@ export default function Analytics() {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                         <div class="page-footer">
                             <a href="crypto.html" class="page-footer-item page-footer-item-right"

@@ -16,45 +16,44 @@ export default function Sidebar() {
                 <ul class="list-unstyled accordion-menu">
                     <li class="active-page">
                         <a href="#" class="active"><SiGoogleanalytics /> Analytics</a>
-                        <ul class="">
+                        {/* <ul class="">
                             <li>
                                 <a>Analytics</a>
                             </li>
-                        </ul>
+                        </ul> */}
                     </li>
                     <li class="active-page">
                         <a href="#" class="active">< RxActivityLog /> Sessions</a>
-                        <ul class="">
+                        {/* <ul class="">
                             <li>
                                 <a>Sessions</a>
                             </li>
-                        </ul>
+                        </ul> */}
                     </li>
                     <li class="active-page">
                         <a href="#" class="active"><MdOutlineWork /> Freelance</a>
-                        <ul class="">
+                        {/* <ul class="">
                             <li>
                                 <a>Freelance jobs</a>
                             </li>
-                        </ul>
+                        </ul> */}
                     </li>
                     <li class="active-page">
                         <a href="#" class="active"><MdPayments /> Payouts</a>
-                        <ul class="">
+                        {/* <ul class="">
                             <li>
                                 <a>Payouts</a>
                             </li>
-                        </ul>
+                        </ul> */}
                     </li>
                     <li class="active-page">
-                        <a href="#" class="active"><HiCurrencyDollar /> Direct payments</a>
-                        <ul class="">
+                        <a href="#" class="active"><HiCurrencyDollar /> Direct</a>
+                        {/* <ul class="">
                             <li>
                                 <a>Direct payments</a>
                             </li>
-                        </ul>
+                        </ul> */}
                     </li>
-
                 </ul>
                 <a href="#" id="sidebar-collapsed-toggle">
                     <i data-feather="arrow-right"></i>
