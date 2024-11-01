@@ -1,4 +1,6 @@
 /* eslint-disable react/no-unknown-property */
+import { MdOutlineWork } from "react-icons/md";
+
 export default function RecentFreelanceJobsCard() {
 
     return (
@@ -12,95 +14,90 @@ export default function RecentFreelanceJobsCard() {
                         <div class="transactions-list">
                             <div class="tr-item">
                                 <div class="tr-company-name">
-                                    <div class="tr-img tr-card-img">
-                                        <img
-                                            src="http://polygons.space/neo/theme/assets/images/avatars/avatar1.jpeg"
-                                            alt="..."
-                                        />
+                                    <div
+                                        class="tr-icon tr-card-icon tr-card-bg-primary text-white"
+                                    >
+                                        <MdOutlineWork />
                                     </div>
                                     <div class="tr-text">
-                                        <h4 class="text-white">John Doe</h4>
-                                        <p>23 items sold</p>
+                                        <h4 class="text-white">Luke Skywalker</h4>
+                                        
                                     </div>
                                 </div>
                                 <div class="tr-rate">
-                                    <p><span>$300</span></p>
+                                    <p><span class="text-success">+$24</span></p>
                                 </div>
                             </div>
                         </div>
                         <div class="transactions-list">
                             <div class="tr-item">
                                 <div class="tr-company-name">
-                                    <div class="tr-img tr-card-img">
-                                        <img
-                                            src="http://polygons.space/neo/theme/assets/images/avatars/avatar2.jpeg"
-                                            alt="..."
-                                        />
+                                    <div
+                                        class="tr-icon tr-card-icon tr-card-bg-primary text-white"
+                                    >
+                                        <MdOutlineWork />
                                     </div>
                                     <div class="tr-text">
-                                        <h4 class="text-white">Ann Doe</h4>
-                                        <p>19 items sold</p>
+                                        <h4 class="text-white">Luke Skywalker</h4>
+                                        
                                     </div>
                                 </div>
                                 <div class="tr-rate">
-                                    <p><span>$270</span></p>
+                                    <p><span class="text-success">+$24</span></p>
                                 </div>
                             </div>
                         </div>
                         <div class="transactions-list">
                             <div class="tr-item">
                                 <div class="tr-company-name">
-                                    <div class="tr-img tr-card-img">
-                                        <img
-                                            src="http://polygons.space/neo/theme/assets/images/avatars/avatar3.jpeg"
-                                            alt="..."
-                                        />
+                                    <div
+                                        class="tr-icon tr-card-icon tr-card-bg-primary text-white"
+                                    >
+                                        <MdOutlineWork />
                                     </div>
                                     <div class="tr-text">
-                                        <h4 class="text-white">Lisa Doe</h4>
-                                        <p>14 items sold</p>
+                                        <h4 class="text-white">Luke Skywalker</h4>
+                                        
                                     </div>
                                 </div>
                                 <div class="tr-rate">
-                                    <p><span>$404</span></p>
+                                    <p><span class="text-success">+$24</span></p>
                                 </div>
                             </div>
                         </div>
                         <div class="transactions-list">
                             <div class="tr-item">
                                 <div class="tr-company-name">
-                                    <div class="tr-img tr-card-img">
-                                        <img
-                                            src="http://polygons.space/neo/theme/assets/images/avatars/avatar4.jpeg"
-                                            alt="..."
-                                        />
+                                    <div
+                                        class="tr-icon tr-card-icon tr-card-bg-primary text-white"
+                                    >
+                                        <MdOutlineWork />
                                     </div>
                                     <div class="tr-text">
-                                        <h4 class="text-white">John Doe</h4>
-                                        <p>10 items sold</p>
+                                        <h4 class="text-white">Luke Skywalker</h4>
+                                        
                                     </div>
                                 </div>
                                 <div class="tr-rate">
-                                    <p><span>$500</span></p>
+                                    <p><span class="text-success">+$24</span></p>
                                 </div>
                             </div>
                         </div>
                         <div class="transactions-list">
                             <div class="tr-item">
                                 <div class="tr-company-name">
-                                    <div class="tr-img tr-card-img">
-                                        <img
-                                            src="http://polygons.space/neo/theme/assets/images/avatars/avatar5.jpeg"
-                                            alt="..."
-                                        />
+                                    <div
+                                        class="tr-icon tr-card-icon tr-card-bg-primary text-white"
+                                    >
+                                        <MdOutlineWork />
                                     </div>
                                     <div class="tr-text">
-                                        <h4 class="text-white">Ann Doe</h4>
-                                        <p>8 items sold</p>
+                                        <h4 class="text-white">Luke Skywalker</h4>
+                                        
                                     </div>
                                 </div>
                                 <div class="tr-rate">
-                                    <p><span>$299</span></p>
+                                    <p><span class="text-success">+$24</span></p>
                                 </div>
                             </div>
                         </div>

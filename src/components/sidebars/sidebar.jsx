@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable react/no-unknown-property */
 import { SiGoogleanalytics } from "react-icons/si";
 import { SiCodementor } from "react-icons/si";
@@ -5,24 +6,25 @@ import { RxActivityLog } from "react-icons/rx";
 import { MdOutlineWork } from "react-icons/md";
 import { MdPayments } from "react-icons/md";
 import { HiCurrencyDollar } from "react-icons/hi";
+import { Link } from "react-router-dom";
 
-export default function Sidebar() {
+export default function Sidebar(props) {
 
     return (
 
         <>
             <div class="page-sidebar">
-                <a class="logo" href="index.html"><SiCodementor size={30} /></a>
+                <Link class="logo" to="/"><SiCodementor size={30} /></Link>
                 <ul class="list-unstyled accordion-menu">
-                    <li class="active-page">
-                        <a href="#" class="active"><SiGoogleanalytics /> Analytics</a>
+                    <li class={`${props.status1}`}>
+                        <Link to="#" class="active"><SiGoogleanalytics /> Analytics</Link>
                         {/* <ul class="">
                             <li>
                                 <a>Analytics</a>
                             </li>
                         </ul> */}
                     </li>
-                    <li class="active-page">
+                    <li class={`${props.status2}`}>
                         <a href="#" class="active">< RxActivityLog /> Sessions</a>
                         {/* <ul class="">
                             <li>
@@ -30,7 +32,7 @@ export default function Sidebar() {
                             </li>
                         </ul> */}
                     </li>
-                    <li class="active-page">
+                    <li class={`${props.status3}`}>
                         <a href="#" class="active"><MdOutlineWork /> Freelance</a>
                         {/* <ul class="">
                             <li>
@@ -38,7 +40,7 @@ export default function Sidebar() {
                             </li>
                         </ul> */}
                     </li>
-                    <li class="active-page">
+                    <li class={`${props.status4}`}>
                         <a href="#" class="active"><MdPayments /> Payouts</a>
                         {/* <ul class="">
                             <li>
@@ -46,7 +48,7 @@ export default function Sidebar() {
                             </li>
                         </ul> */}
                     </li>
-                    <li class="active-page">
+                    <li class={`${props.status5}`}>
                         <a href="#" class="active"><HiCurrencyDollar /> Direct</a>
                         {/* <ul class="">
                             <li>
